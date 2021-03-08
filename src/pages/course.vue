@@ -1,7 +1,7 @@
 <template>
     <div class="course">
         <h3 class="title">
-            <em @click="backIndex" class="back"></em>学习vuex
+            <span @click="backIndex" class="back"></span>学习vuex
         </h3>
         <div class="content">
             <video src="http://www.w3school.com.cn/i/movie.ogg" controls="controls"></video>
@@ -56,14 +56,16 @@ export default {
     left: 0;
     box-sizing: border-box;
     .title {
+        // position: absolute;
         .back{
-            position: absolute;
-            left: 0;
-            top: 0;
+            // position: absolute;
+            // display: inline-block;
+            // left: 0;
+            // top: 0;
             box-sizing: border-box;
-            width: 6%;
-            height: 5%;
-            margin: 9% 0 0 2%;
+            width: 20px;
+            height: 20px;
+            margin: 6px;
             float: left;
             background: url('../assets/back.png') no-repeat;
             background-size: cover;

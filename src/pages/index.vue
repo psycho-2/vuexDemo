@@ -3,7 +3,7 @@
         <h1>你好</h1>
         <p class="text">
             尊敬的
-            <span style="color: red;">{{memberInfo}}用户</span>，欢迎来到德莱联盟！
+            <span style="color: red;">{{memberInfo}}用户</span>，欢迎来到Vuex！
         </p>
 
         <div class>
